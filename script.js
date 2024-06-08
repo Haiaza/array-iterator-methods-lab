@@ -329,7 +329,7 @@ let totalYearsLived = 0
 // Enter your solution code here:
 let totalSpan = []
 totalSpan =  inventors.map((inventor) => {
-  console.log(`${inventor.first}${inventor.last} lived for ${inventor.passed - inventor.year} years`)
+  return `${inventor.first}${inventor.last} lived for ${inventor.passed - inventor.year} years`
 })
 
 console.log(totalSpan)

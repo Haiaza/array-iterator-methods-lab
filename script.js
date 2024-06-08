@@ -334,12 +334,13 @@ let totalYearsLived = 0
 
 let ageList = []
 ageList = inventors.map((inventor) => {
-  return `${inventor.passed - inventor.year}`
+  return inventor.passed - inventor.year
+  // overuse of the backtick
 })
 // console.log(ageList)
 totalYearsLived = ageList.reduce((runTot, currentVal, idx) =>{
   return runTot + currentVal  
-})
+},0)
 
 // console.log(totalSpans)
 

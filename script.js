@@ -327,13 +327,12 @@ console.log('Exercise 9 Correct Result: ', 3)
 let totalYearsLived = 0
 
 // Enter your solution code here:
-totalSpan = inventors.map((inventor) => {
-  return `${inventor.first}${inventor.last} lived for ${inventor.passed - inventor.year} years`
-  console.log(totalSpan)
+let totalSpan = []
+totalSpan =  inventors.map((inventor) => {
+  console.log(`${inventor.first}${inventor.last} lived for ${inventor.passed - inventor.year} years`)
 })
 
-totalSpan
-
+console.log(totalSpan)
 
 // Check your return value:
 console.log('Bonus 1 My Result: ', totalYearsLived)

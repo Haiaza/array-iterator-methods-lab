@@ -336,7 +336,10 @@ let ageList = []
 ageList = inventors.map((inventor) => {
   return `${inventor.passed - inventor.year}`
 })
-console.log(ageList)
+// console.log(ageList)
+totalYearsLived = ageList.reduce((runTot, currentVal, idx) =>{
+  return runTot + currentVal  
+})
 
 // console.log(totalSpans)
 

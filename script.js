@@ -243,7 +243,7 @@ let isAdultPresent = null
 // Enter your solution code here:
 isAdultPresent = devs.some((dev) => {
     return dev.year <= 2005
-  })
+  }) 
 
 
 

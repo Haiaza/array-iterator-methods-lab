@@ -364,10 +364,8 @@ let travelMethodCounts = {}
 
 // Enter your solution code here:
 travelMethodCounts = travelMethods.reduce((runTot, currentNum, idx) => {
-  travelMethods.map((method) =>{
-    const [option,count] = travelMethods
-  })
-})
+
+},0)
 
 
 // Check your return value:

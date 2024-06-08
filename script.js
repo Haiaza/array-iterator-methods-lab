@@ -241,11 +241,10 @@ console.log('Exercise 5 Correct Result: ',
 let isAdultPresent = null
 
 // Enter your solution code here:
-isAdultPresent = () => {
-  devs.some(dev => {
-    dev.year > 2006
+isAdultPresent = devs.some((dev) => {
+    dev.year <= 2005
   })
-}
+
 
 
 // Check your return value:

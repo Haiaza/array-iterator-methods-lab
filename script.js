@@ -364,6 +364,7 @@ let travelMethodCounts = {}
 
 // Enter your solution code here:
 travelMethodCounts = travelMethods.reduce((runTot, currentNum, idx) => {
+  runTot = {}
 
 },0)
 

@@ -178,7 +178,7 @@ let firstLast = []
 
 firstLast = people.map((person) => {
   const [lst,fst] = person.split(',')
-    return lst
+    return fst,lst
 
   // person = name
 })

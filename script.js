@@ -119,8 +119,10 @@ let sortedByBirthYear = []
 
 // Enter your solution code here:
 
-sortedByBirthYear = inventors.sort((inventor) => {
-  return inventor.year
+sortedByBirthYear = inventors.sort((a,b) => {
+  let olderOldDudes = a 
+  let youngerOldDudes = b
+  return olderOldDudes.year - youngerOldDudes.year // a - b means its ascending
 })
 
 // Check your return value:

@@ -363,10 +363,15 @@ console.log('Bonus 1 Correct Result: ', 861)
 let travelMethodCounts = {}
 
 // Enter your solution code here:
-travelMethodCounts = travelMethods.reduce((runTot, currentNum, idx) => {
-  runTot = {}
+travelMethodCounts = travelMethods.reduce((runTot, motiveOfTrav, idx) => {
+  if(runTot[motiveOfTrav]){
+    runTot[motiveOfTrav] = runTot[motiveOfTrav] + 1
+  } else {
+    runTot[motiveOfTrav] = 1
+  }
+  return runTot
 
-},0)
+},{})
 
 
 // Check your return value:
